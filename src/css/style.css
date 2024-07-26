@@ -1,0 +1,76 @@
+body {
+    color: #999;
+}
+
+.img-form{
+    width: 750px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: bisque;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 75px 25px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.field{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+input{
+    width: 350px;
+}
+.field:first-child{
+    margin-top: 0;
+}
+.btn-add{
+    display: block;
+    box-sizing: border-box;
+    width:200px;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px black;
+    border-radius: 15px;
+    padding: 12px 36px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.img-container{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-block{
+    display: block;
+    box-sizing: border-box;
+    width: 175px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: end;
+    margin-left: 25px;
+}
+.img-block:nth-child(1+4n){
+    margin-left: 0;
+}
+.delete-image{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin-bottom: -5px;
+    margin-right: -5px;
+    background-image: url("https://cdn.icon-icons.com/icons2/933/PNG/512/close-button_icon-icons.com_72803.png");
+    background-size: cover;
+    cursor: pointer;
+}
+.image{
+    z-index: -1;
+}
+
